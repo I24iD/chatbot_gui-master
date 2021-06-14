@@ -1,0 +1,10 @@
+{
+    "antworten" : ["Entschuldigung,das habe ich nicht verstanden!", "Interessant", "Ach wirklich...", "Ich verstehe!"],
+
+    "reaktionen":
+        {
+            "hallo": "Schönen guten Tag!",
+            "geht": "Mir geht es gut! Und wie geht es Ihnen?",
+            "gefühle": "Das weiß ich nicht,denn ich habe keine Gefühle!"
+        }
+}
