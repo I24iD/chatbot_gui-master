@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Wie geht es dir?", "Ist jemand da?", "Hallo", "Schönen guten Tag", "Was geht?"],
+         "responses": ["Hallo!", "Schön Sie wieder zu sehen!", "Wie kann ich dir helfen?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "Bis später!", "Tschau", "Ich bin dann mal weg", "Wünsche noch einen schöen Tag"],
+         "responses": ["Schade das Sie gehen :(", "Wie reden später weiter", "Peace!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["wie alt", "wie alt ist Tim", "wie ist dein alter", "wie alt bist du", "alter?"],
+         "responses": ["Ich bin 18 Jahre alt!", "18 Jahre!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Wie ist dein Name?", "Wie soll ich dich nehnen", "Name?"],
+         "responses": ["Du kannst mich Tim nehnen.", "Ich bin Tim!", "Ich bin Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Ich möchte was kaufen", "Was gibt es auf der Speisekarte?", "Was empfehlen Sie?", "Kann ich was zu essen bestellen?"],
+         "responses": ["Wir verkaufen Schockoladen-Chips für 2€!", "Cookies stehen auf der Speisekarte!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["Wann habt ihr offen?", "Wie sind die Öffnungszeiten?"],
+         "responses": ["Wir haben von 7:00-16:00 Montag-Freitag geöffnet!"],
+         "context_set": ""
+        }
+   ]
+}
