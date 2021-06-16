@@ -148,3 +148,7 @@ cython_debug/
 
 # Local History for Visual Studio Code
 .history/
+
+# Model und Daten nicht hochladen
+model.tf*
+data.pi*
