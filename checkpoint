@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/lokaleradmin/Dokumente/Python/chatbot_new/chatbot_gui-master/model.tflearn"
+all_model_checkpoint_paths: "/home/lokaleradmin/Dokumente/Python/chatbot_new/chatbot_gui-master/model.tflearn"
