@@ -15,7 +15,7 @@
          "context_set": ""
         },
         {"tag": "name",
-         "patterns": ["Wie ist dein Name?", "Wie soll ich dich nehnen", "Name?"],
+         "patterns": ["Wie ist dein Name?", "Wie soll ich dich nehnen", "Name?", "Wie heist du?", "Wer bist du?"],
          "responses": ["Du kannst mich Tim nehnen.", "Ich bin Tim!", "Ich bin Tim aka Tech With Tim."],
          "context_set": ""
         },

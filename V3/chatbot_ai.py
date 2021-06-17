@@ -90,6 +90,8 @@ class Chatbot_ai:
             self.model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
             self.model.save("model.tflearn")
 
+
+
     def bag_of_words(self, s):
         bag = [0 for _ in range(len(self.words))]
 
@@ -103,8 +105,10 @@ class Chatbot_ai:
 
         return numpy.array(bag)
 
+
     def set_Message(self, message):
         self.message = str(message)
+
 
     def get_Response(self):
         results = self.model.predict([self.bag_of_words(self.message, self.words)])
@@ -116,7 +120,6 @@ class Chatbot_ai:
                 responses = tg['responses']
 
         print(random.choice(responses))
-
 
 if __name__ == "__main__":
     pass
